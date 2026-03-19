@@ -1,0 +1,40 @@
+EMPLOYEE MANAGEMENT SYSTEM
+>>Project Description
+This is a full-stack Employee Management System developed using Spring Boot and Angular. The application allows users to perform CRUD operations on employee data with seamless frontend-backend integration.
+
+>>Features
+- Add, update, delete, and view employee details
+- RESTful API integration
+- Responsive UI
+- Real-time data handling
+
+>>Tech Stack
+- Backend: Spring Boot, Spring Data JPA, Hibernate
+- Frontend: Angular, HTML, CSS, TypeScript
+- Database: MySQL
+- Tools: Postman, Maven
+
+>>API Endpoints
+- GET /api/v1/employees
+- POST /api/v1/employees
+- PUT /api/v1/employees/{id}
+- DELETE /api/v1/employees/{id}
+
+SETUP INSTRUCTIONS
+>>Backend
+1. Clone the repository
+2. Open in IDE (IntelliJ / VS Code)
+3. Configure MySQL in `application.properties`
+4. Run Spring Boot application
+
+>>Frontend
+1. Navigate to Angular project folder
+2. Run `npm install`
+3. Run `ng serve`
+4. Open http://localhost:4200
+
+>>Database Configuration
+>>properties
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+spring.datasource.username=root
+spring.datasource.password=your_password
